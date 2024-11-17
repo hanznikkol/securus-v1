@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>Securus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!--Icon-->
+    <link rel="icon" type="image/png" href="img/tabicon.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!--Jquery/Javascript-->
+    <script src="js/jQuery.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/aos.js"></script>
+
+
+    <script type="text/javascript">
+    $(window).on('scroll', function(){
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black2');
+        }
+        else {
+            $('nav').removeClass('black2');  
+        }
+    })
+    </script>
+
+
+</head>
+<body>
+
+
+
+    <header>
+        <nav>
+            <div class="logo-nav2">securus</div>
+
+                <ul>
+                    <li><a class="nav2" href="index.html">HOME</a></li>
+                    <li><a class="nav2" href="about.html">ABOUT US</a></li>
+                    <li><a class="nav2" href="info.html">INFORMATION</a></li>
+                    <li><a class="nav2" href="breathexercise.html">BREATHING EXERCISE</a></li>  
+                    <li><a class="active2 nav2" href="contact.html">CONTACTS</a></li>   
+                </ul>           
+                    
+        </nav>
+    </header>
+
+    <section class="contact-us-main" >
+        <div class="container-contact-us-main" >
+            <div class="content-contact-us-main" data-aos="fade-down">
+                
+                <div class="contact-us-image-holder">
+                    <img class="contact-us-img-main" src="img/contactus.png">
+                </div>
+
+                
+
+                <div class="contact-us-text-holder">
+
+                    <h1 class="contact-us-text-header-main">Contact Us</h1>
+
+
+
+                        <div>
+                            <form action="results.html" method="GET">
+
+                                <div>
+
+                                    <div>
+                                        <label class="fname" for="fullname">Full Name</label>
+                                    </div>
+
+                                        <input class="input-full-name" type="text" id="fullname" name="name" placeholder="Enter your full name">
+
+                                    <div>
+                                    <label class="email" for="email">Email</label>
+                                    </div>
+
+
+                                    <input class="input-full-name" type="text" id="email" name="email" placeholder="Enter your email">
+
+                                </div>
+
+
+                                    <label class="subject" for="subject">Message</label>
+
+                                <div>
+
+                                    <textarea class="txtmessage" id="subject" name="subject" placeholder="Enter you message"></textarea>
+
+                                    <input type="submit" value="Submit">
+
+                                </div>
+
+                            </form>
+                        </div>
+
+
+
+                <div class="container-contact-me">
+
+                    <div>
+                        <img class="sizeicon1" src="img/iconperson2.png">
+
+                        <p class="contact-us-text-sub-main">
+                            Michaela Mae H. Formalejo, RPm
+                        </p>
+
+                        <p class="contact-us-text-sub-main">
+                            Guidance Associate, STI College Lucena
+                        </p>
+
+                    </div>
+
+                    <div>
+                        <img class="sizeicon2" src="img/iconphone2.png">
+
+                        <p class="contact-us-text-sub-main-2">
+                            09197323645
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="sizeicon3" src="img/iconemail2.png">
+
+                        <p class="contact-us-text-sub-main-2">
+                            michaelamae.formalejo@lucena.sti.edu
+                        </p>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--Footer Contact-->
+    <footer>
+
+
+    <section class="Contact-sec-con-page">
+
+        <div class="Contact-text-holder" data-aos="fade-down">
+
+          <div class="icons-footer-index">
+            <a href="https://www.facebook.com/"><img src="img/fb.png"></a>
+            <a href="https://twitter.com/compose/tweet"><img src="img/twt.png"></a>
+            <a href="https://www.instagram.com/"><img src="img/ig.png"></a>
+          </div>
+
+            <p class="contact-copy-right">Copyright &copy; 2020 Securus. All Rights Reserved.</p>
+
+        </div>
+    </section>
+
+
+    </footer>
+
+
+
+
+<!--Animate On Scroll Javascript-->
+
+    <script type="text/javascript">
+        AOS.init({
+                    offset:120, 
+                    delay:0, 
+                    duration:800, 
+                    mirror:false, 
+                });
+    </script>
+
+</body>
+</html>

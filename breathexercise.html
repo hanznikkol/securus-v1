@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>Securus</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<!--Icon-->
+    <link rel="icon" type="image/png" href="img/tabicon.png">
+
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!--Jquery/Javascript-->
+	<script src="js/jQuery.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/aos.js"></script>
+
+
+    <script type="text/javascript">
+    $(window).on('scroll', function(){
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black2');
+        }
+        else {
+            $('nav').removeClass('black2');  
+        }
+    })
+    </script>
+
+
+</head>
+<body>
+
+
+	<header>
+		<nav>
+			<div class="logo-nav2">securus</div>
+
+				<ul>
+					<li><a class="nav2" href="index.html">HOME</a></li>
+					<li><a class="nav2" href="about.html">ABOUT US</a></li>
+					<li><a class="nav2" href="info.html">INFORMATION</a></li>
+					<li><a class="active2 nav2" href="breathexercise.html">BREATHING EXERCISE</a></li>	
+					<li><a class="nav2" href="contact.html">CONTACTS</a></li>	
+				</ul>			
+					
+		</nav>
+	</header>
+
+
+	<!--Main Breathing Exercise-->
+	<section class="main-breathing-exercise">
+		<div class="container-main-breathing-exercise">
+			<div class="content-main-breathing-exercise" data-aos="fade-up">
+				
+				<div class="breathing-exercise-image-holder">
+					<img class="breathingexercisemain-img" src="img/breathingexercisesmain.png">
+				</div>
+
+				<div class="breathing-exercise-text-holder">
+					<h1 class="breathing-exercise-header-text">Breathing Exercise</h1>
+
+					<p class="breathing-exercise-sub-text">
+						How are you? Are you having an attack right now? Have you tried grounding? If not yet, <span class="span-pick-breathe"> click the first image below to help you with your grounding. </span> But we figured that you need something to calm yourself down so let us help you. <span class="span-pick-breathe">Pick a breathing exercise that you would like to view below!</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<section class="tri-picker">
+
+		<div id="overlay" onclick="off()">
+  			<div class="Breathe-3">
+  				<img src="img/inexhale3.gif">
+  			</div>
+		</div>
+
+		<div id="overlay2" onclick="off2()">
+  			<div class="Breathe-1">
+  				<img src="img/inexhale1.gif">
+  			</div>
+		</div>
+
+		<div id="overlay3" onclick="off3()">
+  			<div class="Breathe-2">
+  				<img src="img/inexhale2.gif">
+  			</div>
+		</div>
+
+
+
+		<div class="container-tri-picker" data-aos="fade-up">
+			<div class="content-tri-picker">
+
+				<div class="tri-picker-images">
+
+						<div onclick="on()">
+							<img class="img1-size-picker" src="img/exercise3.png">
+							<h1 class="tri-picker-text">Breathing <br/>Exercise 1</h1>
+						</div>
+
+						<div onclick="on2()">
+							<img class="img2-size-picker" src="img/exercise1.png">
+							<h1 class="tri-picker-text">Breathing <br/>Exercise 2</h1>
+						</div>
+
+						<div onclick="on3()">
+							<img class="img3-size-picker" src="img/exercise2.png">
+							<h1 class="tri-picker-text">Breathing <br/>Exercise 3</h1>
+						</div>
+				</div>
+
+				
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<!--De-stressing Section-->
+
+	<section class="destresssing-section">
+		<div class="container-destressing-main" data-aos="fade-right">
+			<div class="content-destressing-main">
+
+				<div class="dstress-text-holder">
+					<h1 class="dstress-techniques">
+						De-Stressing Techniques
+					</h1>
+				</div>
+
+				<div class="tri-dstress-holder-img">
+
+					<div class="tri-dstress-img1">
+						<img class="img-dstress-1" src="img/dstress1.png">
+					</div>
+
+					<div class="tri-dstress-img2">
+						<img class="img-dstress-2" src="img/dstress2.png">
+					</div>
+
+					<div class="tri-dstress-img3">
+						<img class="img-dstress-3" src="img/dstress3.png">
+					</div>
+
+				</div>
+
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<!--Motivational Quotes Section-->
+	<section class="motive-quotes-sec" data-aos="fade-right">
+		<div class="container-quotes-main">
+			<div class="content-quotes-main">
+				
+				<div class="motive-quotes-text-holder">
+					<h1 class="Motivational-Quotes-Text">Motivational Quotes</h1>
+				</div>
+
+				<div class="motive-images-holder">
+
+					<div class="tri-quotes-1">
+						<img src="img/motiveimg1.png">
+					</div>
+
+					<div class="tri-quotes-2">
+						<img src="img/motiveimg2.png">
+					</div>
+
+					<div class="tri-quotes-3">
+						<img src="img/motiveimg3.png">
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="motive-videos-section">
+		<div class="container-videos-main">
+			<div class="content-videos-main" data-aos="fade-up">
+
+				<div class="motive-vid-text-holder">
+					<h1 class="Motivational-Videos-Text">Motivational Videos</h1>
+				</div> 
+
+				<div class="motive-vid-holder">
+
+					<div>
+						<video width="600" controls>
+							<source src="img/motivevid1.mp4" type="video/mp4">
+  							<source src="motivevid1.ogg" type="video/ogg">
+						</video>
+
+						<h1 class="vid-motive-text">Video 1</h1>
+						<p class="source-text">Source: <a href="https://www.youtube.com/watch?v=ga-MniJxQz8&feature=youtu.be">Overcome Depression & Anxiety - Motivational Video - World Mental Health Day</a></p>
+					</div>
+
+					<div>
+						<video width="600" controls>
+							<source src="img/motivevid2.mp4" type="video/mp4">
+  							<source src="motivevid2.ogg" type="video/ogg">
+						</video>
+
+						<h1 class="vid-motive-text">Video 2</h1>
+						<p class="source-text">Source: <a href="https://www.youtube.com/watch?v=5nlSXhMBP8c&feature=youtu.be">This Is Not The End - Motivational Speech On Depression & Mental Health</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+    <!--Footer Contact-->
+    <footer>
+
+
+    <section class="Contact-sec">
+
+        <div class="Contact-text-holder" data-aos="fade-down">
+
+          <div class="icons-footer-index">
+            <a href="https://www.facebook.com/"><img src="img/fb.png"></a>
+            <a href="https://twitter.com/compose/tweet"><img src="img/twt.png"></a>
+            <a href="https://www.instagram.com/"><img src="img/ig.png"></a>
+          </div>
+
+                        
+            <p class="con-name-index">Michaela Mae H. Formalejo, RPm
+            <br/>Guidance Associate, STI College Lucena</p>
+
+            <p class="con-num-mail">09197323645 <span>michaelamae.formalejo@lucena.sti.edu</span></p>
+
+
+            <a href="contact.html"><button class="Contact-Us-Button">
+              Contact Us
+            </button></a>
+
+            <p class="contact-copy-right">Copyright &copy; 2020 Securus. All Rights Reserved.</p>
+
+        </div>
+    </section>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Overlay-->
+
+	<script>
+		function on() {
+		  document.getElementById("overlay").style.display = "block";
+		}
+
+		function off() {
+		  document.getElementById("overlay").style.display = "none";
+		}
+	</script>
+
+	<script>
+		function on2() {
+		  document.getElementById("overlay2").style.display = "block";
+		}
+
+		function off2() {
+		  document.getElementById("overlay2").style.display = "none";
+		}
+	</script>
+
+
+	<script>
+		function on3() {
+		  document.getElementById("overlay3").style.display = "block";
+		}
+
+		function off3() {
+		  document.getElementById("overlay3").style.display = "none";
+		}
+	</script>
+
+
+
+<!--Animate On Scroll Javascript-->
+
+        <script type="text/javascript">
+            AOS.init({
+                        offset:120, 
+                        delay:0, 
+                        duration:800, 
+                        mirror:false, 
+                    });
+        </script>
+
+</body>
+</html>
